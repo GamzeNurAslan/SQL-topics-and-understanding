@@ -1,2 +1,1 @@
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.yazilim12.com%2Ficerik%2Fneden-sql-ogrenmeliyim%2F98&psig=AOvVaw2LqYiHdFM8GE0VP1J35St_&ust=1747213313132000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPij-_qKoI0DFQAAAAAdAAAAABAk
-
+https://yazilim12.com/public/panel/contents/6GfsQB49WRIOymERcmewi6pv4GinIDbmAe3Z6H2Q930yc93343RceGsyxOJFNzAXou7xvcV2EKjTq9JQ5S1PQg0EE6m1aK91XktT/98/images/0_kcxas_zokgv7u9x_.gif
