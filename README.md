@@ -1,1 +1,2 @@
-https://yazilim12.com/public/panel/contents/6GfsQB49WRIOymERcmewi6pv4GinIDbmAe3Z6H2Q930yc93343RceGsyxOJFNzAXou7xvcV2EKjTq9JQ5S1PQg0EE6m1aK91XktT/98/images/0_kcxas_zokgv7u9x_.gif
+![Uploading image.png…]()
+
