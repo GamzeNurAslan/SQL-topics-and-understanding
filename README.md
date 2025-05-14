@@ -63,6 +63,7 @@ SELECT yas, COUNT(*) FROM ogrenciler GROUP BY yas;
 SELECT o.isim, d.ders_adi 
 FROM ogrenciler o
 JOIN dersler d ON o.id = d.ogrenci_id;
+
 -------------------------------------------------------------------
 
 Kısaca SQL:
