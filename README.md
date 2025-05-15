@@ -14,17 +14,23 @@ Bu sorgu ogrenciler tablosundaki tüm satır ve sütunları getirir.
 2. INSERT – Veri Ekleme (Create)
 Yeni kayıt eklemek için kullanılır.
 
-INSERT INTO ogrenciler (isim, yas) VALUES ('Ali', 22);
+INSERT INTO ogrenciler (isim, yas) 
+
+VALUES ('Ali', 22);
 
 3. UPDATE – Veri Güncelleme (Update)
 Var olan veriyi değiştirmek için kullanılır.
 
-UPDATE ogrenciler SET yas = 23 WHERE isim = 'Ali';
+UPDATE ogrenciler SET yas = 27
+
+WHERE isim = 'Gamze';
 
 4. DELETE – Veri Silme (Delete)
 Veriyi silmek için kullanılır.
 
-DELETE FROM ogrenciler WHERE isim = 'Ali';
+DELETE FROM ogrenciler 
+
+WHERE isim = 'Ali';
 
 ------------------------------------------------------------------
 
@@ -32,8 +38,11 @@ DELETE FROM ogrenciler WHERE isim = 'Ali';
 Veritabanında yeni tablo oluşturmak için CREATE TABLE komutu kullanılır:
 
 CREATE TABLE ogrenciler (
+
     id INT PRIMARY KEY,
+    
     isim VARCHAR(50),
+    
     yas INT
 );
 
@@ -42,18 +51,24 @@ CREATE TABLE ogrenciler (
 🔹 Koşullar ve Filtreleme
 WHERE, AND, OR, LIKE, BETWEEN, IN gibi yapılar kullanılır:
 
-SELECT * FROM ogrenciler WHERE yas > 20 AND isim LIKE 'A%';
+SELECT * FROM ogrenciler 
+
+WHERE yas > 20 AND isim LIKE 'A%';
 
 -------------------------------------------------------------------
 
 🔹 Sıralama ve Gruplama
 ORDER BY sıralama için:
 
-SELECT * FROM ogrenciler ORDER BY yas DESC;
+SELECT * FROM ogrenciler 
+
+ORDER BY yas DESC;
 
 GROUP BY gruplama için:
 
-SELECT yas, COUNT(*) FROM ogrenciler GROUP BY yas;
+SELECT yas, COUNT(*) FROM ogrenciler
+
+GROUP BY yas;
 
 ------------------------------------------------------------------
 
@@ -61,7 +76,9 @@ SELECT yas, COUNT(*) FROM ogrenciler GROUP BY yas;
 İki veya daha fazla tabloyu ilişkilendirmek için kullanılır:
 
 SELECT o.isim, d.ders_adi 
+
 FROM ogrenciler o
+
 JOIN dersler d ON o.id = d.ogrenci_id;
 
 -------------------------------------------------------------------
