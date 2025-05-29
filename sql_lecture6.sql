@@ -31,7 +31,7 @@ SELECT birth_date, first_name, last_name, 10 AS points
 FROM customers
 ORDER BY first_name
 
--- DESC'in yerine ASC da kullanılır.
+-- DESC'in yerine ASC da kullanılır. (Negatif olarak)
 SELECT city, longitude FROM north_american_cities
 WHERE longitude < -87.629798
 ORDER BY longitude ASC;
